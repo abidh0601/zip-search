@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+  
+}
+
+.toggle:hover{
+  background-color: white;
+  color: black;
+}
+.toggle{
+  min-width: 20px;
+  align-content: center;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.search{
+  display: flex;
+  float: left;
+  margin: 10px;
+}
+
+input{
+  border-radius: 10px;
+  font-size: 20px;
+  text-indent: 5px;
+}
+
+.submit{
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: lightcyan;
+  border: 1px solid black;
+}
+
+.submit:hover{
+  background-color: lightskyblue ;
+  color: white;
+}
+
+

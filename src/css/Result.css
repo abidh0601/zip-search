@@ -1,0 +1,7 @@
+.Result{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 20px;
+}

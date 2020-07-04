@@ -1,0 +1,15 @@
+table{
+    border: 10px solid black;
+    border-radius: 10px;;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.head{
+    background-color: black;
+    color: white;
+    margin: -2px;
+    
+}
