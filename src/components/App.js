@@ -28,12 +28,12 @@ class App extends Component {
         let url = "";
         if(this.state.searchzip)
         {
-            url = "http://ctp-zip-api.herokuapp.com/zip/"+ this.state.search;
+            url = "https://ctp-zip-api.herokuapp.com/zip/"+ this.state.search;
         }
         else{
             let search = this.state.search;
             search = search.toUpperCase()
-            url = "http://ctp-zip-api.herokuapp.com/city/"+ search;
+            url = "https://ctp-zip-api.herokuapp.com/city/"+ search;
         }
         try{
             let result = await axios.get(url);
