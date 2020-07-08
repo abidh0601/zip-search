@@ -8,7 +8,8 @@ import '../css/List.css'
 class List extends Component{
     
     render(){
-        const rows = [];
+         
+        const rows = []; //array of objects that list of search results
         if(this.props.searchzip){
             
             this.props.data.map((city, index) => {

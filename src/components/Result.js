@@ -4,6 +4,8 @@ import List from './List.js';
 
 import '../css/Result.css'
 
+
+//Holds results of the data returned or lack there of if no data found
 class Result extends Component{
     render(){
         if(this.props.found){

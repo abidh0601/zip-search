@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 import '../css/CityRow.css'
 
+
+//component used to hold information on one city from a zipcode search
 class CityRow extends Component{
     render(){
         const State = this.props.city.State;

@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
+import Result from './Result.js';
+
 import '../css/App.css'
 
-import Result from './Result.js';
+
 
 
 class App extends Component {
@@ -23,7 +25,7 @@ class App extends Component {
         this.switchSearch=this.switchSearch.bind(this);
     }
 
-
+    //gets data from api based of type of search
     async handleSearch(){
         let url = "";
         if(this.state.searchzip)
@@ -46,10 +48,14 @@ class App extends Component {
         }
     }
 
+
+    //handles the input of the searched item
     handleInput(event){
         this.setState({search: event.target.value})
     }
 
+
+    //Changes state from zipcode search to city search and vice versa
     switchSearch(){
        this.setState(
             {
@@ -61,6 +67,7 @@ class App extends Component {
        
     }
 
+    
     render() {
         return (      
            <div class ="App">
